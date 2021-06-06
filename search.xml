@@ -252,6 +252,7 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>（2）在浏览器，访问自己的博客域名，即可看到刚 发布的文章</p>
+<p>ddd</p>
 ]]></content>
       <tags>
         <tag>博客           //多个标签可以这样添加</tag>
