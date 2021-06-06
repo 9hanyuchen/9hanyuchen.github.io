@@ -249,7 +249,7 @@
 
 <p>其中length代表显示摘要的截取字符长度。<br>注：这两种方法，在博客首页显示的效果不一样，根据自己的需要，选择自己喜欢的方法</p>
 <h4 id="5、发布到Github上"><a href="#5、发布到Github上" class="headerlink" title="5、发布到Github上"></a>5、发布到Github上</h4><p>（1）发表的文章在本地预览无误后，在 Git Bash 命令窗口执行以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>（2）在浏览器，访问自己的博客域名，即可看到刚 发布的文章</p>
 ]]></content>
