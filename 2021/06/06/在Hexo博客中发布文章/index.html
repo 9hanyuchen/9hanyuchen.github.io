@@ -20,28 +20,34 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Jack&#39;s blog">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="1、新建一篇文章（1）在hexo博客目录下，进入Git Bash命令窗口中，输入以下命令： 1(base) hyc@hanyuchendeMacBook-Pro _posts % hexo new &quot;在Hexo博客中发布文章&quot;  （2）在博客目录下的 &#x2F;Users&#x2F;hyc&#x2F;hycBlog&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;在Hexo博客中发布文章.md  （3）在.md文件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在Hexo博客中发布文章">
+<meta property="og:url" content="http://example.com/2021/06/06/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/index.html">
 <meta property="og:site_name" content="Jack&#39;s blog">
+<meta property="og:description" content="1、新建一篇文章（1）在hexo博客目录下，进入Git Bash命令窗口中，输入以下命令： 1(base) hyc@hanyuchendeMacBook-Pro _posts % hexo new &quot;在Hexo博客中发布文章&quot;  （2）在博客目录下的 &#x2F;Users&#x2F;hyc&#x2F;hycBlog&#x2F;blog&#x2F;source&#x2F;_posts&#x2F;在Hexo博客中发布文章.md  （3）在.md文件">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-06-06T15:41:10.000Z">
+<meta property="article:modified_time" content="2021-06-06T16:20:41.662Z">
 <meta property="article:author" content="Jack">
+<meta property="article:tag" content="博客           &#x2F;&#x2F;多个标签可以这样添加">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2021/06/06/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Jack's blog</title>
+  <title>在Hexo博客中发布文章 | Jack's blog</title>
   
 
 
@@ -183,9 +189,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -201,10 +208,9 @@
       <meta itemprop="name" content="Jack's blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/06/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/" class="post-title-link" itemprop="url">在Hexo博客中发布文章</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          在Hexo博客中发布文章<a href="https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name_posts/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pencil-alt"></i></a>
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -224,6 +230,13 @@
               </span>
 
           
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
 
         </div>
       </header>
@@ -234,7 +247,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h4 id="1、新建一篇文章"><a href="#1、新建一篇文章" class="headerlink" title="1、新建一篇文章"></a>1、新建一篇文章</h4><p>（1）在hexo博客目录下，进入Git Bash命令窗口中，输入以下命令：</p>
+        <h4 id="1、新建一篇文章"><a href="#1、新建一篇文章" class="headerlink" title="1、新建一篇文章"></a>1、新建一篇文章</h4><p>（1）在hexo博客目录下，进入Git Bash命令窗口中，输入以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(base) hyc@hanyuchendeMacBook-Pro _posts % hexo new &quot;在Hexo博客中发布文章&quot;</span><br></pre></td></tr></table></figure>
 
 <p>（2）在博客目录下的 /Users/hyc/hycBlog/blog/source/_posts/在Hexo博客中发布文章.md </p>
@@ -245,101 +258,54 @@
 
 
 <h4 id="3、启动服务器，本地测试"><a href="#3、启动服务器，本地测试" class="headerlink" title="3、启动服务器，本地测试"></a>3、启动服务器，本地测试</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/06/06/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+
+
+
+<h4 id="4、添加“阅读全文”按钮"><a href="#4、添加“阅读全文”按钮" class="headerlink" title="4、添加“阅读全文”按钮"></a>4、添加“阅读全文”按钮</h4><p><strong>方法一</strong>：在文章任意你想添加的位置添加即可</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--more--&gt;        </span><br></pre></td></tr></table></figure>
+
+<p>例如：<br>在.md里面的内容是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 在这里</span><br><span class="line">date: 2018-08-02 11:41:10</span><br><span class="line">tags:</span><br><span class="line">- 博客</span><br><span class="line">- hexo</span><br><span class="line">---</span><br><span class="line">javascript是一门充满活力、简单易用的语言，又是一门具有许多复杂微妙技术的语言。即使是经验丰富的javascript开发者，如果没有认真学习的话，也无法真正理解它们，这就是javascript的矛盾之处。由于javascript不必理解就可以使用，因此通常来说很难真正理解语言本身，这就是我们面临的挑战。不满足于只是让代码正常工作，而是想要弄清楚为什么，勇于挑战这条崎岖颠簸的少有人走的路，拥抱整个javascript</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">后面的内容在首页不显示，只显示到&lt;!--more--&gt;这里</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>方法二</strong>：设置首页文章以摘要形式显示，打开主题配置文件，找到auto_excerpt进行修改</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">auto_excerpt:</span><br><span class="line">  enable: true</span><br><span class="line">  length: 150</span><br></pre></td></tr></table></figure>
+
+<p>其中length代表显示摘要的截取字符长度。<br>注：这两种方法，在博客首页显示的效果不一样，根据自己的需要，选择自己喜欢的方法</p>
+<h4 id="5、发布到Github上"><a href="#5、发布到Github上" class="headerlink" title="5、发布到Github上"></a>5、发布到Github上</h4><p>（1）发表的文章在本地预览无误后，在 Git Bash 命令窗口执行以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>（2）在浏览器，访问自己的博客域名，即可看到刚 发布的文章</p>
+
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/%E5%8D%9A%E5%AE%A2-%E5%A4%9A%E4%B8%AA%E6%A0%87%E7%AD%BE%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7%E6%B7%BB%E5%8A%A0/" rel="tag"># 博客           //多个标签可以这样添加</a>
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+          </div>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/07/shell/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jack">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jack's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/07/shell/" class="post-title-link" itemprop="url">shell基本命令</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-11-07 01:03:31" itemprop="dateCreated datePublished" datetime="2020-11-07T01:03:31+08:00">2020-11-07</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-05-31 19:45:09" itemprop="dateModified" datetime="2021-05-31T19:45:09+08:00">2021-05-31</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>the basic information of shell command and some solutions for solving related problems.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/11/07/shell/">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/11/07/shell/" rel="prev" title="shell基本命令">
+      <i class="fa fa-chevron-left"></i> shell基本命令
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -392,6 +358,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E3%80%81%E6%96%B0%E5%BB%BA%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0"><span class="nav-number">1.</span> <span class="nav-text">1、新建一篇文章</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%E3%80%81%E7%BB%99%E6%96%87%E7%AB%A0%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE"><span class="nav-number">2.</span> <span class="nav-text">2、给文章添加分类和标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%E3%80%81%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E6%9C%AC%E5%9C%B0%E6%B5%8B%E8%AF%95"><span class="nav-number">3.</span> <span class="nav-text">3、启动服务器，本地测试</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%E3%80%81%E6%B7%BB%E5%8A%A0%E2%80%9C%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E2%80%9D%E6%8C%89%E9%92%AE"><span class="nav-number">4.</span> <span class="nav-text">4、添加“阅读全文”按钮</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5%E3%80%81%E5%8F%91%E5%B8%83%E5%88%B0Github%E4%B8%8A"><span class="nav-number">5.</span> <span class="nav-text">5、发布到Github上</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
